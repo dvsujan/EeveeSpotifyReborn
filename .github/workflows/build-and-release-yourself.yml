@@ -13,7 +13,10 @@ on:
         default: ""
         required: true
         type: string
-
+      
+permissions:
+  contents: write
+  
 env:
   SWIFTPROTOBUF_VERSION: "1.29.0"
 
